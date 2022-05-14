@@ -1,60 +1,195 @@
-<!doctype html>
+<!-- SOURCE CODE DARI LOLHUMAN -->
+<!-- Nyomot? silakan gada yang larang -->
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4343548529245340"
-     crossorigin="anonymous"></script>
-	  
-    <!-- Required meta tags -->
+
+<head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<title>Dashboard - DWAdmin</title>
-
-	<!-- Bootstrap CSS-->
-	<link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.css">
-	<!-- Style CSS (White)-->
-	<link rel="stylesheet" href="assets/css/White.css">
-	<!-- Style CSS (Dark)-->
-	<link rel="stylesheet" href="assets/css/Dark.css">
-	<!-- FontAwesome CSS-->
-	<link rel="stylesheet" href="assets/vendors/fontawesome/css/all.css">
-	<!-- Icon LineAwesome CSS-->
-	<link rel="stylesheet" href="assets/vendors/lineawesome/css/line-awesome.min.css">
-
+    <meta name="description" content="Jangan Lupa Beribadah~">
+    <meta name="robots" content="archive, follow, imageindex, index, odp, snippet, translate">
+    <meta name="author" content="">
+    <title><BetaBotz-API/></title>
+    <meta property="og:site_name" name="og:site_name" content="x-Ziyy - Api's">
+    <meta property="og:title" name="og:title" content="BetaBotz-Api's">
+    <meta property="og:url" name="og:url" content="https://api-betabotz.herokuapp.com">
+    <meta property="og:description" name="og:description" content="Rest Api Free for you">
+     <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <link rel="shortcut icon" href="https://telegra.ph/file/196ebf08936889481210a.jpg" type="image/x-icon" />
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://api-betabotz.herokapp.com">
 </head>
+
 <body>
+    <div class="text">
+        <div class="status">
+            <p>STATUS : <span class="typed-text"></span><span class="cursor typing"></span></p>
+        </div>
+        <hr>
+        <div class="opendocs">
+            <p>OPEN <a href="/docs" class="docs">DOCS.</a></p>
+        </div>
+    </div>
+    <div class="bottom">
+        <p>
+            <a href="https://wa.me/6285803583481" rel="noopener noreferrer" class="sosmed"><i class="mdi mdi-whatsapp"></i>Whatsapp</a>
+        </p>
+    </div>
+</body>
+<style>
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif
+}
 
-	<div class="auth-dark">
-		<div class="theme-switch-wrapper">
-				<label class="theme-switch" for="checkbox">
-					<input type="checkbox" id="checkbox"  title="Dark Or White"/>
-					<div class="slider round"></div>
-			  </label>
-		</div>
-	</div>
+html {
+    background: url(https://telegra.ph/file/196ebf08936889481210a.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
 
-	<div class="container">
-		<div class="row vh-100 d-flex justify-content-center align-items-center auth">
-			<div class="col-md-7 col-lg-5">
-				<div class="card">
-					<div class="card-body">
-						<h3 class="mb-3" id='wel'></h3>
-						<p>Free Rest Api for everyone <i class="fas la-smile"></i></p>
-						
-							<div class="form-group my-4">
-								<a href="/docs" class="btn btn-linear-primary btn-rounded px-5">Documentation</a>
-							</div>
-							
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
 
-	<!-- Library Javascipt-->
-	<script src="assets/vendors/bootstrap/js/jquery.min.js"></script>
-	<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/vendors/bootstrap/js/popper.min.js"></script>
-	<script src="assets/js/script.js"></script>
- </body>
+div.text {
+    position: absolute
+}
+
+div.text .status {
+    position: relative;
+    animation: animetop .8s
+}
+
+div.text .readdocs {
+    position: relative;
+    animation: animebot .8s;
+    text-align: center
+}
+
+@keyframes animetop {
+    0% {
+        top: -200px;
+        opacity: 0
+    }
+    100% {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animebot {
+    0% {
+        top: 200px;
+        opacity: 0
+    }
+    100% {
+        top: 0;
+        opacity: 1
+    }
+}
+
+p {
+    color: rgba(255, 255, 255, .8);
+    letter-spacing: .15em;
+    font-size: 15px!important;
+    font-weight: 600
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .5)
+}
+
+a.sosmed {
+    color: rgba(255, 255, 255, .8)
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1)
+}
+
+.typed-text {
+    color: #0f0
+}
+
+.cursor {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 1.5s steps(40, end), blink-caret .75s step-end infinite
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange
+    }
+}
+
+hr {
+    margin: 10px auto;
+    position: relative;
+    background: rgba(255, 255, 255, .5);
+    width: 80%;
+    height: 2px
+}
+
+div.bottom {
+    position: fixed;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto
+}
+</style>
+<script>
+const typedTextSpan = document.querySelector(".typed-text"),
+    textArray = ["ACTIVE~", "ONLINE~", "OPEN~"],
+    typingDelay = 200,
+    erasingDelay = 100,
+    newTextDelay = 2e3;
+let textArrayIndex = 0,
+    charIndex = 0;
+
+function type() { charIndex < textArray[textArrayIndex].length ? (typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex), charIndex++, setTimeout(type, 200)) : setTimeout(erase, 2e3) }
+
+function erase() { charIndex > 0 ? (typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1), charIndex--, setTimeout(erase, 100)) : (textArrayIndex++, textArrayIndex >= textArray.length && (textArrayIndex = 0), setTimeout(type, 1300)) }
+document.addEventListener("DOMContentLoaded", (function() { setTimeout(type, 2250) }));
+
+$(document).ready((function() {
+    $(".changeprofile").submit((function(e) {
+        var formObj, formURL = $(this).attr("action"),
+            formData = new FormData(this);
+        $.ajax({ url: formURL, type: "POST", data: formData, contentType: !1, cache: !1, processData: !1, beforeSend: function() { $("button").attr("disabled", "disabled"), $("input").attr("disabled", "disabled"), $("a").attr("disabled", "disabled"), $(".inibutton").html('<i class="fas fa-spinner fa-spin"></i> Wait') }, success: function(data) { data.includes("Success") ? ($("button").removeAttr("disabled", "disabled"), $("a").removeAttr("disabled", "disabled"), $("input").removeAttr("disabled", "disabled"), $(".inibutton").html("Save"), $.notify({ icon: "tim-icons icon-check-2", message: data }, { type: "success", timer: 3e3, placement: { from: "top", align: "right" } }), window.location = window.location) : ($("button").removeAttr("disabled", "disabled"), $("a").removeAttr("disabled", "disabled"), $("input").removeAttr("disabled", "disabled"), $(".inibutton").html("Save"), $.notify({ icon: "tim-icons icon-simple-remove", message: data }, { type: "danger", timer: 3e3, placement: { from: "top", align: "right" } })) } }), e.preventDefault()
+    }))
+}))
+</script>
+
 </html>
